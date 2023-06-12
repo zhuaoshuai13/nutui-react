@@ -12,7 +12,7 @@ import { Audio } from '@nutui/nutui-react-taro'
 
 ## 代码演示
 
-### 基本用法
+### 基础用法
 
 :::demo
 
@@ -143,11 +143,11 @@ export default App;
 :::
 
 
-## API
+## Audio
 
 ### Props
 
-| 参数         | 说明                             | 类型   | 默认值           |
+| 属性 | 说明                             | 类型   | 默认值           |
 |--------------|----------------------------------|--------|------------------|
 | className       | 类名               | string | ''              |
 | style       | css样式               | CSSProperties | {}           |

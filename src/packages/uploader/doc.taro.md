@@ -1,4 +1,4 @@
-# uploader-taro 上传
+# Uploader 上传
 
 ## 介绍
 
@@ -11,7 +11,7 @@ import { Uploader } from '@nutui/nutui-react-taro';
 ```
 
 ## 代码演示
-### 基本用法
+### 基础用法
 
 ``` tsx
 import React, { useState } from "react";
@@ -386,7 +386,7 @@ export default App;
 ```
 
 ## Uploader
-### Prop
+### Props
 
 | 字段| 说明| 类型| 默认值|
 |-------------------|--------------|------------------|------------------|

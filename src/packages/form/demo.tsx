@@ -59,7 +59,7 @@ interface T {
 const FormDemo = () => {
   const [translated] = useTranslate<T>({
     'zh-CN': {
-      basic: '基本用法',
+      basic: '基础用法',
       title1: '动态表单',
       title10: '顶部对齐',
       title2: '表单校验',
@@ -172,12 +172,12 @@ const FormDemo = () => {
   }
 
   const submitFailed = (error: any) => {
-    Toast.fail('callback: submitFailed error')
+    Toast.show({ content: 'callback: submitFailed error', icon: 'fail' })
     console.log('failed error', error)
   }
 
   const submitSucceed = (obj: any) => {
-    Toast.success('succeed')
+    Toast.show({ content: 'succeed', icon: 'success' })
     console.log('succeed', obj)
   }
 

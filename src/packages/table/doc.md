@@ -13,7 +13,7 @@ import { Table } from '@nutui/nutui-react';
 
 ## 代码演示
 
-### 基本用法
+### 基础用法
 
 :::demo
 ```tsx
@@ -420,7 +420,7 @@ const App = () => {
       render: () => {
         return (
           <Button
-            onClick={() => Toast.text('hello')}
+            onClick={() => Toast.show('hello')}
             size="small"
             type="primary"
           >
@@ -572,7 +572,7 @@ const App = () => {
   ])
   
   const handleSorter = (item: TableColumnProps, data: Array<any>) => {
-    Toast.text(`${JSON.stringify(item)}`)
+    Toast.show(`${JSON.stringify(item)}`)
     setData5([...data])
   }
 
@@ -641,7 +641,7 @@ const App = () => {
   ])
   
   const handleSorter = (item: TableColumnProps, data: Array<any>) => {
-    Toast.text(`${JSON.stringify(item)}`)
+    Toast.show(`${JSON.stringify(item)}`)
     setData5([...data])
   }
 

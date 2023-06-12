@@ -11,7 +11,7 @@ import { Uploader } from '@nutui/nutui-react';
 ```
 
 ## 代码演示
-### 基本用法
+### 基础用法
 
 :::demo
 ``` tsx
@@ -478,7 +478,7 @@ export default App;
 
 ## Uploader
 
-### Prop
+### Props
 
 | 字段| 说明| 类型| 默认值|
 |---------|------|--------|----------|

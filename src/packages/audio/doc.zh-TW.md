@@ -13,7 +13,7 @@ import { Audio } from '@nutui/nutui-react'
 
 ## 代碼演示
 
-### 基本用法
+### 基础用法
 
 :::demo
 
@@ -144,11 +144,11 @@ export default App;
 :::
 
 
-## API
+## Audio
 
 ### Props
 
-| 參數         | 說明                             | 類型   | 默認值           |
+| 屬性 | 說明                             | 類型   | 默認值           |
 |--------------|----------------------------------|--------|------------------|
 | className       | 類名               | string | -              |
 | style       | css樣式               | CSSProperties | `{}`           |
